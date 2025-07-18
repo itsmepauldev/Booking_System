@@ -16,7 +16,9 @@
         <!-- Sidebar -->
         <aside class="w-64 bg-gray-800 text-white flex-shrink-0">
             <div class="p-6">
+                <h6 class="text-2xl font-bold mb-6">Dona Roanna Macy Garcia</h6>
                 <h2 class="text-2xl font-bold mb-6">Booking Management</h2>
+
                 <ul class="space-y-2">
                     <li>
                         <a href="/dashboard"
