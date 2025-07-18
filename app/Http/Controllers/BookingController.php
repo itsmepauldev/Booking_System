@@ -60,4 +60,13 @@ class BookingController extends Controller
 
         return redirect()->route('bookings.index')->with('success', 'Booking deleted successfully!');
     }
+    public function dashboard()
+    {
+        $bookings = Booking::where('user_id', auth()->id())
+            ->latest()
+            ->take(5)
+            ->get();
+
+        return view('dashboard', compact('bookings'));
+    }
 }

@@ -11,6 +11,7 @@ class Booking extends Model
         'description',
         'book_date',
         'book_time',
+
     ];
 
 }
